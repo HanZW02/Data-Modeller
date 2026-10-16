@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F37A76A-63A7-A875-1441-956AD3DE14F2" name="PAPER">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:52:45 UTC</createdTime>
+<generatorID>FF9EBD2E-48FC-A824-BFA6-AD49A9921EC1</generatorID>
+<ownerDesignName>paper</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Paper_ID" id="B2C50BE6-DD4F-7F44-C0D5-63269FAEA83B">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:52:45 UTC</createdTime>
+<generatorID>EE42381B-1791-9823-D20D-0B96F0DCF22D</generatorID>
+<ownerDesignName>paper</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="202A0BD2-D8E3-4116-2BEF-D65CE4CCD125">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:52:45 UTC</createdTime>
+<generatorID>C5596DAB-E8A7-3466-10E7-CDEE55C792EF</generatorID>
+<ownerDesignName>paper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Abstract" id="1295A45B-A1FF-EC1F-A60D-E6315C945B3D">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:52:45 UTC</createdTime>
+<generatorID>891F9815-DEFB-9BFF-C040-4A0D00D4178A</generatorID>
+<ownerDesignName>paper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="File_Name" id="EE4089AE-7A84-2FA2-D935-1C9F7BD7BD85">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:52:45 UTC</createdTime>
+<generatorID>4B5E9768-4FD5-5FD6-788E-168D47549874</generatorID>
+<ownerDesignName>paper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D061AF0-0A86-7368-DAD8-562F8B51ADE3" name="PAPER_PK">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:52:45 UTC</createdTime>
+<generatorID>85111759-0450-7105-2B96-C685CAAA113F</generatorID>
+<ownerDesignName>paper</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2C50BE6-DD4F-7F44-C0D5-63269FAEA83B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

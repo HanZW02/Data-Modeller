@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC8DA08B-9F62-B5EA-8CAD-7A09F64F43E2" name="FARE">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>23F10470-FE0E-D6D5-7103-F60F68E20CCF</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Fare_Code" id="BBD60039-5106-9A15-6DCA-E58D66201674">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>CEF12583-9E66-436C-A2F4-E81B042C0514</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Amount" id="2AC4BBB9-AFEF-2DE0-79E8-C7C0B06F213D">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>5D5089D8-89AC-5333-E98C-4934C9E5865D</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Restrictions" id="7EDF06D1-B3D4-3C6F-483F-356C486E9ABD">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>CC8607B1-369B-413B-8115-157CD55D8474</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLIGHT_Flight_Number" id="2C5FAA86-D20D-3026-2488-57081636C0B2">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>8D0F3DDF-7F95-E898-58AA-5B0689CF7E24</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8E8F681-6473-5D48-9FD0-8CA695C7DDE1" referredColumn="417BFF63-6191-32E6-756F-A2B337960689"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4B9712A-BA9E-C882-D7B6-433E0E51119D" name="FARE_PK">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>6749EC72-B496-9F7A-BFD8-49DF40751F09</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBD60039-5106-9A15-6DCA-E58D66201674"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92F7523C-BFDB-6716-8EFD-82AA8C169A64" name="FARE_FLIGHT_FK">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>1BDB8A61-1E94-6D08-5C94-67B039ACC58C</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C5FAA86-D20D-3026-2488-57081636C0B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

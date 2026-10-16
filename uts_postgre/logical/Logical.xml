@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3861D770-7C0A-C48E-1ADE-75C9693D19CA" mainViewID="E5AF486D-53A6-4BB1-89D1-87F93C82016E">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:59:07 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

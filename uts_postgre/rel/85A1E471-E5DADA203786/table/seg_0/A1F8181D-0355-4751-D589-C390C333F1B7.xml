@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1F8181D-0355-4751-D589-C390C333F1B7" name="SEAT_RESERVATION">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>A5340056-85AC-AC43-D37F-4FF0212102E7</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Seat_Number" id="A9278DB1-B9C1-F5F3-4CE2-01D7300EE4BA">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>EE9E45AE-8559-0F05-5FFE-131697AD4850</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_Name" id="340D7328-A9F0-7EEF-96BA-AA3F2733FE58">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>A2129E0B-5EA3-D1F5-A3F5-BF41A842E73E</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_Phone" id="77717417-B389-5995-98EE-B3FF0D669A17">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>9487BB86-0D24-55A0-000B-7BE917432367</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LEG_INSTANCE_Date" id="7023B34E-53AB-5644-F7E3-930C34DC6B61">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>C7BA9A76-18C4-B11B-5AB7-CB04D684D8C6</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84B86C94-6693-AEBA-7529-403E0B7533A1" referredColumn="681C0C62-8403-772D-1453-B323A28DDFA3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD3D4FB2-0B1B-049F-4EC4-ADC8B4CB6D26" name="SEAT_RESERVATION_LEG_INSTANCE_FK">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>8E04F94B-3AEC-8840-E4D7-DF75181E845A</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7023B34E-53AB-5644-F7E3-930C34DC6B61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

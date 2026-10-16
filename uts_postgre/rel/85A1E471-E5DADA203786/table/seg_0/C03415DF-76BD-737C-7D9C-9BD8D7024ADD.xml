@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C03415DF-76BD-737C-7D9C-9BD8D7024ADD" name="LEG_INSTANCE">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>687B7B35-155C-4AB6-84FB-C132AF6A8C34</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Date" id="681C0C62-8403-772D-1453-B323A28DDFA3">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>6F6CEC8A-F71C-0B37-9C2A-A2BC03E1C588</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Number_of_Avail_Seats" id="8EA7920A-7C26-1E55-6C6F-C4D60BC13776">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>87D68E2E-609E-661E-6369-6346AF9975F2</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dep_Time" id="DF4955D9-D82D-FF1E-BF6B-E05AD368A35C">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>86FEC1A0-FDE3-4451-24D4-392A217BA75D</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Arr_Time" id="4FB7BEFD-C9E3-8A12-28C7-36A00B2EA67D">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>24F1C383-9DBE-4553-D9CC-3B33B6D9C4C6</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLIGHT_LEG_Leg_Number" id="7C02805A-CF0D-D0EB-2419-DAE59618383C">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>F5E3D974-1A97-B84D-7661-0A211A3BD63E</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE19F438-0B08-8E13-784E-FE3FD8AB9DDF" referredColumn="8E4669EE-D1F3-1002-3240-069C56A856C8"/>
+</associations>
+</Column>
+<Column name="AIRPLANE_Airplane_ID" id="5E89B765-33BB-329B-C593-6EFA490E1EE3">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>CCA630C1-F5F0-6AAF-ED51-4337F35960C3</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6A24AB3-E4BB-54C9-78F5-FD9DD1CE023A" referredColumn="85CB9D5A-EA48-E4A6-1516-5AF9410BFA34"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6DE523C-0193-19A9-ECD2-D387EC9DBFE3" name="LEG_INSTANCE_PK">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>5495C03F-ECDC-E4CC-ED62-69BA0B435C26</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="681C0C62-8403-772D-1453-B323A28DDFA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA383C90-B381-F2C2-3F91-4F0FF9D743C7" name="LEG_INSTANCE_FLIGHT_LEG_FK">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>900226FB-CDDF-CE56-22A8-E557D7BA8082</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C02805A-CF0D-D0EB-2419-DAE59618383C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B51B43B0-9084-24DF-145B-766AE93C5DCC" name="LEG_INSTANCE_AIRPLANE_FK">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>B046E15C-84AC-DF01-4C86-14F2BBB85CB7</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E89B765-33BB-329B-C593-6EFA490E1EE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

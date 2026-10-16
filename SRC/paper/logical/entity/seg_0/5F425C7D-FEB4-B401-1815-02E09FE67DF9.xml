@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F425C7D-FEB4-B401-1815-02E09FE67DF9" name="REVIEWER_TOPIC">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:45:12 UTC</createdTime>
+<ownerDesignName>paper</ownerDesignName>
+<engineerTo>
+<item key="E87BC876-2A1C-75D9-F694-D694BD9B92BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Topic_Name" id="6AC583B5-E544-45C4-8FEE-7BDFC352721A">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:45:21 UTC</createdTime>
+<ownerDesignName>paper</ownerDesignName>
+<engineerTo>
+<item key="E87BC876-2A1C-75D9-F694-D694BD9B92BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email_Address" id="EDC493B9-A399-DE0C-5BC0-4C797E20A225">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:49:11 UTC</createdTime>
+<generatorID>90D27A9F-CE11-46D2-4FA3-E8790A5579B3</generatorID>
+<ownerDesignName>paper</ownerDesignName>
+<engineerTo>
+<item key="E87BC876-2A1C-75D9-F694-D694BD9B92BA" value="true"/>
+</engineerTo>
+<referedAttribute>B20BC625-096C-52B8-0F55-B0559F03E8FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64F5DED6-3830-E348-7849-05EC98248819" name="REVIEWER_TOPIC PK">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:45:32 UTC</createdTime>
+<ownerDesignName>paper</ownerDesignName>
+<engineerTo>
+<item key="E87BC876-2A1C-75D9-F694-D694BD9B92BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6AC583B5-E544-45C4-8FEE-7BDFC352721A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8576DACF-3FEB-CDA4-8462-BB6C26231841" name="AIRPLANE_TYPE">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>399359D9-700C-A9C2-3564-67E232A4966C</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TypeName" id="B311D217-E438-1A21-D647-9D9D96155FE4">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>4C5453CB-2D6A-9123-D057-F7E056C380AB</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Max_Seats" id="7BB25DA2-7FAE-8F1A-CEEC-B5F6DF58081A">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>60AF1F85-A041-22F4-48A6-8AB6A11896B8</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Company" id="44EC9190-483F-0949-A7F2-A18460B5108C">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>E40BE8C0-4693-B86B-BE4C-471C6249B5DC</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F4A4D07-42AB-4D3B-7A0D-A05EEE9049D7" name="AIRPLANE_TYPE_PK">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>284A249C-D65B-B8C8-0C12-0A3DACD978D9</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B311D217-E438-1A21-D647-9D9D96155FE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

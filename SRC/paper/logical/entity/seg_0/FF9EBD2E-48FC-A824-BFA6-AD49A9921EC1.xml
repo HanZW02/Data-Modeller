@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF9EBD2E-48FC-A824-BFA6-AD49A9921EC1" name="PAPER">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:39:50 UTC</createdTime>
+<ownerDesignName>paper</ownerDesignName>
+<engineerTo>
+<item key="E87BC876-2A1C-75D9-F694-D694BD9B92BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Paper_ID" id="EE42381B-1791-9823-D20D-0B96F0DCF22D">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:39:57 UTC</createdTime>
+<ownerDesignName>paper</ownerDesignName>
+<engineerTo>
+<item key="E87BC876-2A1C-75D9-F694-D694BD9B92BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="C5596DAB-E8A7-3466-10E7-CDEE55C792EF">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:40:36 UTC</createdTime>
+<ownerDesignName>paper</ownerDesignName>
+<engineerTo>
+<item key="E87BC876-2A1C-75D9-F694-D694BD9B92BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Abstract" id="891F9815-DEFB-9BFF-C040-4A0D00D4178A">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:40:54 UTC</createdTime>
+<ownerDesignName>paper</ownerDesignName>
+<engineerTo>
+<item key="E87BC876-2A1C-75D9-F694-D694BD9B92BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="File_Name" id="4B5E9768-4FD5-5FD6-788E-168D47549874">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:41:09 UTC</createdTime>
+<ownerDesignName>paper</ownerDesignName>
+<engineerTo>
+<item key="E87BC876-2A1C-75D9-F694-D694BD9B92BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="85111759-0450-7105-2B96-C685CAAA113F" name="PAPER PK">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:40:27 UTC</createdTime>
+<ownerDesignName>paper</ownerDesignName>
+<engineerTo>
+<item key="E87BC876-2A1C-75D9-F694-D694BD9B92BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE42381B-1791-9823-D20D-0B96F0DCF22D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

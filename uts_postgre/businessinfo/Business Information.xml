@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="E7C46ABC-A6F7-68A8-F85B-E21C1AD4D2D1">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:59:07 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

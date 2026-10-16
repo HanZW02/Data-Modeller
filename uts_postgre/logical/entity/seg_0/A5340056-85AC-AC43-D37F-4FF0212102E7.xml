@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5340056-85AC-AC43-D37F-4FF0212102E7" name="SEAT_RESERVATION">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:10:36 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Seat_Number" id="EE9E45AE-8559-0F05-5FFE-131697AD4850">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:10:47 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_Name" id="A2129E0B-5EA3-D1F5-A3F5-BF41A842E73E">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:11:01 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_Phone" id="9487BB86-0D24-55A0-000B-7BE917432367">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:11:14 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="C7BA9A76-18C4-B11B-5AB7-CB04D684D8C6">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:14:34 UTC</createdTime>
+<generatorID>8E04F94B-3AEC-8840-E4D7-DF75181E845A</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<referedAttribute>6F6CEC8A-F71C-0B37-9C2A-A2BC03E1C588</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

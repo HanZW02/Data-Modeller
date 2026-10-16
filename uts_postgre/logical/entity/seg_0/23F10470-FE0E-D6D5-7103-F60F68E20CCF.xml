@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23F10470-FE0E-D6D5-7103-F60F68E20CCF" name="FARE">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:06:16 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fare_Code" id="CEF12583-9E66-436C-A2F4-E81B042C0514">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:06:23 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Amount" id="5D5089D8-89AC-5333-E98C-4934C9E5865D">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:06:36 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Restrictions" id="CC8607B1-369B-413B-8115-157CD55D8474">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:07:09 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_Number" id="8D0F3DDF-7F95-E898-58AA-5B0689CF7E24">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:13:25 UTC</createdTime>
+<generatorID>1BDB8A61-1E94-6D08-5C94-67B039ACC58C</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<referedAttribute>F6306EAB-F841-EE0D-D887-4821B0D2D2B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6749EC72-B496-9F7A-BFD8-49DF40751F09" name="FARE PK">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:06:35 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CEF12583-9E66-436C-A2F4-E81B042C0514</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

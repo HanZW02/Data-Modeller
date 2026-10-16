@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="84B86C94-6693-AEBA-7529-403E0B7533A1" containerWithKeyObject="A1F8181D-0355-4751-D589-C390C333F1B7" localFKIndex="AD3D4FB2-0B1B-049F-4EC4-ADC8B4CB6D26" name="SEAT_RESERVATION_LEG_INSTANCE_FK">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>8E04F94B-3AEC-8840-E4D7-DF75181E845A</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<referredTableLongName>LEG_INSTANCE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C03415DF-76BD-737C-7D9C-9BD8D7024ADD</referredTableID>
+<keyObject>B6DE523C-0193-19A9-ECD2-D387EC9DBFE3</keyObject>
+<referredKeyID>B6DE523C-0193-19A9-ECD2-D387EC9DBFE3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Date</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

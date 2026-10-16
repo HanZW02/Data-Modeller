@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="12905239-ACA0-7992-4625-47DBE2068AEA">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:59:07 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

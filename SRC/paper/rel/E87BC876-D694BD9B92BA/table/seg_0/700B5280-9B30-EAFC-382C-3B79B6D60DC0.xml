@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="700B5280-9B30-EAFC-382C-3B79B6D60DC0" name="REVIEWER_TOPIC">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:52:45 UTC</createdTime>
+<generatorID>5F425C7D-FEB4-B401-1815-02E09FE67DF9</generatorID>
+<ownerDesignName>paper</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Topic_Name" id="2123AB0C-D69F-40EE-DA08-4D2D6E3AE58D">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:52:45 UTC</createdTime>
+<generatorID>6AC583B5-E544-45C4-8FEE-7BDFC352721A</generatorID>
+<ownerDesignName>paper</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REVIEWER_Email_Address" id="3DC4D653-56EF-8A28-18F4-D6C1765C05C3">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:52:45 UTC</createdTime>
+<generatorID>EDC493B9-A399-DE0C-5BC0-4C797E20A225</generatorID>
+<ownerDesignName>paper</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B396AFE4-838B-DF00-EDD7-FE2F8D586853" referredColumn="1B3DAE18-2A84-1E15-5B79-FD6BA59ED86E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D63991A5-16B5-F285-19EF-6FD3BBD331A1" name="REVIEWER_TOPIC_PK">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:52:45 UTC</createdTime>
+<generatorID>64F5DED6-3830-E348-7849-05EC98248819</generatorID>
+<ownerDesignName>paper</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2123AB0C-D69F-40EE-DA08-4D2D6E3AE58D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79E92913-65F6-9518-35AC-A6183E593792" name="REVIEWER_TOPIC_REVIEWER_FK">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:52:45 UTC</createdTime>
+<generatorID>90D27A9F-CE11-46D2-4FA3-E8790A5579B3</generatorID>
+<ownerDesignName>paper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DC4D653-56EF-8A28-18F4-D6C1765C05C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

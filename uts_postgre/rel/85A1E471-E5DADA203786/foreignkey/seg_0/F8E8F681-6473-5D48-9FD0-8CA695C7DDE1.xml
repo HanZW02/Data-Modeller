@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F8E8F681-6473-5D48-9FD0-8CA695C7DDE1" containerWithKeyObject="DC8DA08B-9F62-B5EA-8CAD-7A09F64F43E2" localFKIndex="92F7523C-BFDB-6716-8EFD-82AA8C169A64" name="FARE_FLIGHT_FK">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:16:06 UTC</createdTime>
+<generatorID>1BDB8A61-1E94-6D08-5C94-67B039ACC58C</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<referredTableLongName>FLIGHT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C989860E-4DC5-6303-BE1E-E86A797898E7</referredTableID>
+<keyObject>ADFA3918-8D06-9377-5571-ACABAA21AAF6</keyObject>
+<referredKeyID>ADFA3918-8D06-9377-5571-ACABAA21AAF6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Flight_Number</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

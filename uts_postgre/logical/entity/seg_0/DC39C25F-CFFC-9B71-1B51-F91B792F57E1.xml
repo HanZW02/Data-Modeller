@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC39C25F-CFFC-9B71-1B51-F91B792F57E1" name="FLIGHT_LEG">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:03:05 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Leg_Number" id="AD829D8B-AFCE-5F64-0A7F-3121E4FCBB81">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:03:15 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Scheduled_Dep_Time" id="C4F6823B-6DF5-4D01-DBFF-CDB9C7AECB7B">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:03:32 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Scheduled_Arr_Time" id="DCC18EC4-73AA-2630-FD47-7BC296F760B4">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:04:06 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_Number" id="BF3139FB-9E95-1AA1-9E05-AAFBBD589EC0">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:12:41 UTC</createdTime>
+<generatorID>70253B84-359B-CBC1-F236-377A21CDA217</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<referedAttribute>F6306EAB-F841-EE0D-D887-4821B0D2D2B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5C89CBE-E927-2F5A-630D-68EEAA11E35E" name="FLIGHT_LEG PK">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:03:31 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AD829D8B-AFCE-5F64-0A7F-3121E4FCBB81</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

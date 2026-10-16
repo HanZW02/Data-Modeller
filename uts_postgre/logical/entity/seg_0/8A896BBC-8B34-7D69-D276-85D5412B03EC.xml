@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A896BBC-8B34-7D69-D276-85D5412B03EC" name="CAN_LAND">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:10:24 UTC</createdTime>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Airport_Code" id="6F03DAAB-4CF5-93C0-FFAC-3740A3894243">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:13:41 UTC</createdTime>
+<generatorID>73609022-CAB1-9E38-2D34-0B34CFD49538</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<referedAttribute>C8D5F1E7-0E73-4187-2CE9-CD2192F7A46B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TypeName" id="71C28643-6EC1-75A5-C817-57064F81DF1C">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 07:14:03 UTC</createdTime>
+<generatorID>0B3E6E12-0FDF-941F-EC5D-95FD025FD373</generatorID>
+<ownerDesignName>uts_postgre</ownerDesignName>
+<engineerTo>
+<item key="85A1E471-7268-5E19-EAEB-E5DADA203786" value="true"/>
+</engineerTo>
+<referedAttribute>4C5453CB-2D6A-9123-D057-F7E056C380AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

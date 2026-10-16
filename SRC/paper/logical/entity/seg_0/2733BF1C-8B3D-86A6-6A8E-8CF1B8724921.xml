@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2733BF1C-8B3D-86A6-6A8E-8CF1B8724921" name="PAPER_AUTHOR">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:45:48 UTC</createdTime>
+<ownerDesignName>paper</ownerDesignName>
+<engineerTo>
+<item key="E87BC876-2A1C-75D9-F694-D694BD9B92BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Is_Contact_Author" id="753C0288-E199-63F9-FC14-B52EE990243D">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:46:01 UTC</createdTime>
+<ownerDesignName>paper</ownerDesignName>
+<engineerTo>
+<item key="E87BC876-2A1C-75D9-F694-D694BD9B92BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Paper_ID" id="AF0B322D-D915-C0B5-42BC-FB722F49AD12">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:48:53 UTC</createdTime>
+<generatorID>CC8E59DB-A3C1-0B6B-C02B-14A6D0DA7956</generatorID>
+<ownerDesignName>paper</ownerDesignName>
+<engineerTo>
+<item key="E87BC876-2A1C-75D9-F694-D694BD9B92BA" value="true"/>
+</engineerTo>
+<referedAttribute>EE42381B-1791-9823-D20D-0B96F0DCF22D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email_ID" id="3EA059F9-9308-5CD6-AD3B-DF7429834E73">
+<createdBy>Rayhan Wibowo</createdBy>
+<createdTime>2026-10-16 06:49:02 UTC</createdTime>
+<generatorID>C176A01F-344B-7A70-D415-DA4C35857456</generatorID>
+<ownerDesignName>paper</ownerDesignName>
+<engineerTo>
+<item key="E87BC876-2A1C-75D9-F694-D694BD9B92BA" value="true"/>
+</engineerTo>
+<referedAttribute>073DC95D-FB74-7DFE-AE58-DF16AD8303D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
